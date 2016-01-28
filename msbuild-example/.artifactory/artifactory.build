@@ -7,8 +7,8 @@
     -->
 
     <!--Credentials for Artifactory-->
-    <ArtifactoryUserName>admin</ArtifactoryUserName>
-    <ArtifactoryPassword>password</ArtifactoryPassword>
+    <ArtifactoryUserName>$(ARTIFACTORY_USER)</ArtifactoryUserName>
+    <ArtifactoryPassword>$(ARTIFACTORY_PASSWORD)</ArtifactoryPassword>
 
 
     <!-- Resolution-->
