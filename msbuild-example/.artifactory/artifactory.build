@@ -7,18 +7,18 @@
     -->
     
     <!--Credentials for Artifactory-->
-    <ArtifactoryUserName>$(ARTIFACTORY_USER)</ArtifactoryUserName>
-    <ArtifactoryPassword>$(ARTIFACTORY_PASSWORD)</ArtifactoryPassword>
+    <ArtifactoryUserName>admin</ArtifactoryUserName>
+    <ArtifactoryPassword>password</ArtifactoryPassword>
 
 
     <!-- Resolution-->
 
     <!--Enable Artifactory plugin to override Nuget "Package Restore" -->
-    <ResolveEnabled>$(RESOLVED_ENABLED)</ResolveEnabled>
+    <ResolveEnabled>true</ResolveEnabled>
     <!--Root URL of the Artifactory server. e.g., http://domain:port/artifactory-->
-    <ResolveArtifactoryUrl>$(ARTIFACTORY_RESOLVE_ADDRESS)</ResolveArtifactoryUrl>
+    <ResolveArtifactoryUrl>http://10.1.16.11:8080/artifactory</ResolveArtifactoryUrl>
     <!--NuGet repository key to resolve from. Usually remote or virtual repository-->
-    <ResolveRepository>$(ARTIFACTORY_RESOLVE_REPO)</ResolveRepository>
+    <ResolveRepository>nuget-remote</ResolveRepository>
     <!--
       To override the user credentials for the resolution process, uncomment the two fields below.
     -->
@@ -29,14 +29,14 @@
     <!-- Deployment-->
 
     <!--Enable Artifactory plugin to publish artifacts -->
-    <DeployEnabled>$(DEPLOYED_ENABLED)</DeployEnabled>
+    <DeployEnabled>true</DeployEnabled>
     <!--Root URL of the Artifactory server. e.g., http://domain:port/artifactory-->
-    <DeployArtifactoryUrl>$(ARTIFACTORY_DEPLOY_ADDRESS)</DeployArtifactoryUrl>
+    <DeployArtifactoryUrl>http://10.1.16.11:8080/artifactory</DeployArtifactoryUrl>
     <!--Local repository key to publish artifacts to-->
-    <DeployRepository>$(ARTIFACTORY_DEPLOY_REPO)</DeployRepository>
+    <DeployRepository>nuget-local</DeployRepository>
 
     <!--Enable Artifactory plugin to publish Build Info -->
-    <BuildInfoEnabled>$(BUILD_INFO_ENABLED)</BuildInfoEnabled>
+    <BuildInfoEnabled>true</BuildInfoEnabled>
 
     
     <!-- 
