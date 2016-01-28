@@ -14,7 +14,7 @@
     <!-- Resolution-->
 
     <!--Enable Artifactory plugin to override Nuget "Package Restore" -->
-    <ResolveEnabled>false</ResolveEnabled>
+    <ResolveEnabled>true</ResolveEnabled>
     <!--Root URL of the Artifactory server. e.g., http://domain:port/artifactory-->
     <ResolveArtifactoryUrl>http://10.1.16.11:8080/artifactory</ResolveArtifactoryUrl>
     <!--NuGet repository key to resolve from. Usually remote or virtual repository-->
