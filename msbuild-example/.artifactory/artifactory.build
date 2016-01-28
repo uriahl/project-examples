@@ -16,7 +16,7 @@
     <!--Enable Artifactory plugin to override Nuget "Package Restore" -->
     <ResolveEnabled>true</ResolveEnabled>
     <!--Root URL of the Artifactory server. e.g., http://domain:port/artifactory-->
-    <ResolveArtifactoryUrl>http://10.1.16.11:8081/artifactory</ResolveArtifactoryUrl>
+    <ResolveArtifactoryUrl>http://10.1.16.11:8080/artifactory</ResolveArtifactoryUrl>
     <!--NuGet repository key to resolve from. Usually remote or virtual repository-->
     <ResolveRepository>nuget-remote</ResolveRepository>
     <!--
@@ -31,7 +31,7 @@
     <!--Enable Artifactory plugin to publish artifacts -->
     <DeployEnabled>false</DeployEnabled>
     <!--Root URL of the Artifactory server. e.g., http://domain:port/artifactory-->
-    <DeployArtifactoryUrl>http://tfs:8081/artifactory</DeployArtifactoryUrl>
+    <DeployArtifactoryUrl>http://10.1.16.11:8080/artifactory</DeployArtifactoryUrl>
     <!--Local repository key to publish artifacts to-->
     <DeployRepository>nuget-local</DeployRepository>
 
