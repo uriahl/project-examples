@@ -69,9 +69,9 @@
                                 <propertiesFile>publish.properties</propertiesFile>
                             </artifactory>
                             <publisher>
-                                <contextUrl>http://localhost:8081/artifactory</contextUrl>
-                                <username>${username}</username>
-                                <password>${password}</password>
+                                <contextUrl>http://localhost:8080/artifactory</contextUrl>
+                                <username>admin</username>
+                                <password>password</password>
                                 <excludePatterns>*-tests.jar</excludePatterns>
                                 <repoKey>libs-release-local</repoKey>
                                 <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
