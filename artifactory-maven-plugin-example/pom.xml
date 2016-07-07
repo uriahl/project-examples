@@ -75,6 +75,7 @@
                                 <excludePatterns>*-tests.jar</excludePatterns>
                                 <repoKey>libs-release-local</repoKey>
                                 <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
+                                <evenUnstable>true</evenUnstable>
                             </publisher>
                             <buildInfo>
                                 <buildName>plugin-demo</buildName>
